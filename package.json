@@ -16,10 +16,8 @@
   "author": "Shahadul Haider",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
     "cors": "^2.8.4",
     "express": "^4.16.3",
-    "moment": "^2.22.2",
     "pug": "^2.0.3"
   }
 }
