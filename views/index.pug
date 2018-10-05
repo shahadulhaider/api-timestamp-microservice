@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title #{title} - FCC Backend Project
+    link(href='https://fonts.googleapis.com/css?family=Roboto', rel='stylesheet')
+    link(href='/style.css', rel='stylesheet')
+
+  body
+    h1 Timestamp Microservice
+    h2 Example Usage
+
+    p #{fullUrl}api/timestamp/2015-12-25<br>
+    p #{fullUrl}api/timestamp/1450137600
+
+    h2 Example Output
+    p {"unix":1451001600000, "utc":"Fri, 25 Dec 2015 00:00:00 GMT"}
